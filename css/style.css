@@ -1,0 +1,17 @@
+:root {
+    --first-color:rgba(226, 241, 18, 0.837);
+    --seckond-color:green;
+    --therd-color:blue;
+
+}
+h1 {
+    color: var(--therd-color);
+}
+#firstParagraph {
+    background-color: var(--first-color);
+    color: var(--seckond-color);
+}
+#seckondParagraph {
+background-color: var(--therd-color);
+color: var(--first-color);
+}
